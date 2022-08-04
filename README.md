@@ -3,7 +3,6 @@ This repository investigates TCR-peptide/-pMHC binding prediction on unseen pept
 The notebooks used to create the TChard dataset are included in `notebooks/notebooks.dataset/`.
 The TChard dataset is available at: https://doi.org/10.5281/zenodo.6962043
 
-
 # Content
 ```
 tc-hard

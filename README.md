@@ -12,7 +12,7 @@ If you find this repository useful, please cite our paper:
   author={Grazioli, Filippo and M{\"o}sch, Anja and Machart, Pierre and Li, Kai and Alqassem, Israa and O'Donnell, Timothy J and Min, Martin Renqiang},
   journal={Frontiers in Immunology},
   publisher={Frontiers},
-  year = {2022}
+  year={2022}
 }
 ```
 

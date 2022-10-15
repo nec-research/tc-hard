@@ -1,5 +1,5 @@
 # tc-hard
-This repository contains the code and the experiments for the paper [https://www.frontiersin.org/articles/10.3389/fimmu.2022.1014256/](On TCR Binding Predictors Failing to Generalize to Unseen Peptides) published in Frontiers in Immunology. This work investigates TCR-peptide/-pMHC binding prediction on unseen peptides using state-of-the-art binding predictors.
+This repository contains the code and the experiments for the paper [On TCR Binding Predictors Failing to Generalize to Unseen Peptides](https://www.frontiersin.org/articles/10.3389/fimmu.2022.1014256/) published in Frontiers in Immunology. This work investigates TCR-peptide/-pMHC binding prediction on unseen peptides using state-of-the-art binding predictors.
 The notebooks used to create the TChard dataset are included in `notebooks/notebooks.dataset/`.
 The TChard dataset is available at: https://doi.org/10.5281/zenodo.6962043
 

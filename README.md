@@ -11,7 +11,8 @@ If you find this repository useful, please cite our paper:
   title={On TCR Binding Predictors Failing to Generalize to Unseen Peptides},
   author={Grazioli, Filippo and M{\"o}sch, Anja and Machart, Pierre and Li, Kai and Alqassem, Israa and O'Donnell, Timothy J and Min, Martin Renqiang},
   journal={Frontiers in Immunology},
-  publisher={Frontiers}
+  publisher={Frontiers},
+  year = {2022}
 }
 ```
 

@@ -29,8 +29,7 @@ def read_input_file(datafile):
         sample['t_cell_type'] = data['T-Cell-Type'][index]
         sample['peptide'] = data['Peptide'][index]
         sample['mhc'] = data['MHC'][index]
-        # we do not use the sign
-        sample['sign'] = 0
+        sample['sign'] = data['sign'][index]
         if invalid(sample['tcrb']) or invalid(sample['peptide']):
             continue
         if invalid(sample['tcra']):
@@ -55,8 +54,7 @@ def read_dataframe(data):
         sample['t_cell_type'] = data['T-Cell-Type'][index]
         sample['peptide'] = data['Peptide'][index]
         sample['mhc'] = data['MHC'][index]
-        # we do not use the sign
-        sample['sign'] = 0
+        sample['sign'] = data['sign'][index]
         if invalid(sample['tcrb']) or invalid(sample['peptide']):
             continue
         if invalid(sample['tcra']):

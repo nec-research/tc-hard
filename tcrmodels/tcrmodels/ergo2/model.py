@@ -114,9 +114,11 @@ class ERGO2(AbstractTCRModel):
             )
         )
         outputs = []
+        gts = []
         for batch_idx, batch in enumerate(loader):
             output = self.model.validation_step(batch, batch_idx)
             if output:
                 outputs.extend(output['y_hat'].tolist())
-        dataframe['prediction'] = outputs
+                gts.extend(output['y'].tolist())
+        dataframe = pd.DataFrame(data={"prediction": outputs, "sign": gts})
         return dataframe
